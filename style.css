@@ -306,3 +306,33 @@ i {
     margin-bottom: 20px;
   }
   
+  /* media queries */
+  @media(max-width: 700px) {
+
+    .covid a:not(.icon) {
+        margin: 1.5% 0% 1.5% 10%;
+    }
+
+    .home-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .links-inner {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 5%;
+    }
+
+    .footer-inner{
+        margin: 0 5%;
+    }
+
+    .right-menu li:first-child {
+        padding-right: 3%;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+  }
